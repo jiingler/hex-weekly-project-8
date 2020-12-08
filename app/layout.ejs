@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <div class="container d-flex align-items-center justify-content-between">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-icons text-gray-900">
+          menu
+        </span>
+      </button>
+      <h1 class="mb-0 lh-base">
+        <a href="./index.html" class="img-replaced-text d-block py-2" style="background: url(assets/images/ic-logo-aloha.svg) center no-repeat;">
+          Aloha
+        </a>
+      </h1>
+      <a href="" class="d-md-none d-block text-gray-900 pr-2 mr-1 hover-text-decoration-underline">Login</a>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbar">
+        <ul class="navbar-nav d-flex mb-0">
+          <li class="nav-item active">
+            <a href="" class="d-md-flex pr-4 d-none">
+              <span class="material-icons text-gray-900">
+                language
+              </span>
+              <span class="material-icons text-gray-900">
+                arrow_drop_down
+              </span>
+            </a>
+          </li>
+          <li class="nav-item"><a href="" class="d-md-block d-none text-gray-900 bg-transparent px-4 py-md-0 py-3 hover-text-decoration-underline">Sign up</a></li>
+          <li class="nav-item"><a href="" class="d-md-none d-block text-gray-900 bg-secondary px-4 py-md-0 py-3 hover-text-decoration-underline">Sign up</a></li>
+          <li class="nav-item"><a href="" class="d-md-block d-none text-gray-900 pl-4 hover-text-decoration-underline">Login</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+  
+  
+
+  <%- contents %>
+
+  <footer class="py-4">
+    <div class="container d-flex align-items-center justify-content-md-between flex-md-row flex-column-reverse text-sm">
+      <div class="mr-lg-6 text-gray-700">© 2020 ALOHA, Inc. All rights reserved.</div>
+      <ul class="d-flex align-items-center mr-lg-auto pl-0 mb-md-0 mb-3">
+        <li><a href="#" class="d-block pr-2 text-gray-700 hover-text-decoration-underline">FAQs</a></li>
+        <li><a href="#" class="d-block px-lg-2 px-2 text-gray-700 hover-text-decoration-underline">Terms of use</a></li>
+        <li><a href="#" class="d-block px-lg-2 pl-2 text-gray-700 hover-text-decoration-underline">Privacy policy</a></li>
+      </ul>
+      <ul class="d-lg-flex align-items-center justify-content-between d-none">
+        <li><a href="#" class="d-flex text-gray-700 mr-4">
+          <span class="material-icons text-gray-900 mr-2">
+            language
+          </span>
+          English
+          <span class="material-icons text-gray-900">
+            arrow_drop_down
+          </span>
+        </a></li>
+        <li><a href="#" class="d-flex text-gray-700">
+          <span class="material-icons text-gray-900 mr-2">
+            attach_money
+          </span>
+          TWD
+          <span class="material-icons text-gray-900">
+            arrow_drop_down
+          </span>
+        </a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>

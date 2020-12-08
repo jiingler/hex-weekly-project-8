@@ -1,0 +1,13 @@
+// responsive web design
+@mixin response-degin($breakpoint) {
+  @if(type-of($breakpoint) == string and map-has-key($grid-breakpoints, $breakpoint)) {
+    $point: map-get($grid-breakpoints, $breakpoint);
+    @media (min-width: $point) {
+      @content;
+    }
+  } @else if not $breakpoint {
+    @content;
+  } @else {
+      @warn 'no search breakpoint'
+  }
+};
