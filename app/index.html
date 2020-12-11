@@ -4,3 +4,60 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
+<div class="position-relative mb-5">
+  <div class="swiper-container position-relative">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="slide-img" src="https://images.unsplash.com/photo-1534600913328-441f6abb4e2f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80" alt="hotel image">
+      </div>
+      <div class="swiper-slide">
+        <img class="slide-img" src="https://images.unsplash.com/photo-1569335468888-1d3e4a5a3595?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80" alt="hotel image">
+      </div>
+      <div class="swiper-slide">
+        <img class="slide-img" src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2800&q=80" alt="hotel image">
+      </div>
+    </div>
+    <div class="container position-absolute-center">
+      <div class="row h-100 d-flex justify-content-center align-items-center">
+        <div class="col-10 h-100"> 
+          <div class="swiper-button-next text-white"></div>
+          <div class="swiper-button-prev text-white"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="slide-text position-absolute-center text-md-4xl text-xxxl text-white">Discover your ideal hotel</h2>
+
+  <div class="search-bar container position-absolute">
+    <div class="row d-flex justify-content-center">
+      <div class="col-10 g-3 p-4 d-flex justify-content-between bg-secondary rounded">
+        <ul class="w-100 row pr-3 d-flex justify-content-between">
+          <li class="col mr-3 p-3 d-flex align-items-center bg-white rounded">
+            <span class="material-icons mr-3">
+              place
+            </span>
+            <p class="text-gray-600 mb-0">Destination</p>
+          </li>
+          <li class="col mr-3 p-3 d-flex align-items-center bg-white rounded">
+            <span class="material-icons mr-3">
+              date_range
+              </span>
+            <p class="text-gray-600 mb-0">Check-in / Check-out</p>
+          </li>
+          <li class="col p-3 d-flex align-items-center bg-white rounded">
+            <span class="material-icons mr-3">
+              person
+              </span>
+            <p class="text-gray-600 mb-0">Guests</p>
+          </li>
+        </ul>
+        <button class="btn btn-primary py-3 px-4">SEARCH</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
