@@ -1,3 +1,10 @@
+.banner {
+  margin-bottom: 312px;
+  @include lg {
+    margin-bottom: 120px;
+  }
+}
+
 .slide-img {
   object-fit: cover;
   object-position: center 60%;
@@ -13,8 +20,17 @@
 }
 
 .search-bar {
-  bottom: -50px;
+  top: 264px;
   left: 0;
   right: 0;
   z-index: 2;
+  .search-btn {
+    width: 100%;
+  }
+  @include lg {
+    bottom: -50px;
+    .search-btn {
+      width: unset;
+    }
+  }
 }
