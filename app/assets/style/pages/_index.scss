@@ -34,3 +34,24 @@
     }
   }
 }
+
+.card {
+  img {
+    height: 175px;
+  }
+}
+
+.nav {
+  .nav-item .nav-link {
+    border-color: $gray-300 !important;
+    color: $gray-600 !important;
+    &.active {
+      border-color: $primary !important;
+      color: $primary !important;
+    }
+  }
+}
+
+.choice-list {
+  overflow-x: auto;
+}

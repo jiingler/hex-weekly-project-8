@@ -1,0 +1,55 @@
+.h2 {
+  @extend .text-xxxl;
+  @extend .text-md-4xl;
+  @extend .font-family-raleway;
+  @extend .font-weight-bolder;
+}
+
+.h3 {
+  @extend .text-xl;
+  @extend .text-md-xxxl;
+  @extend .font-family-raleway;
+  @extend .font-weight-bolder;
+}
+
+.h4 {
+  @extend .text-md-xl;
+  @extend .text-lg;
+  @extend .font-family-raleway;
+  @extend .font-weight-bolder;
+}
+
+.h5 {
+  @extend .text-md-base;
+  @extend .text-xs;
+  @extend .font-family-raleway;
+  @extend .font-weight-bolder;
+}
+
+.font-size-12 {
+  @extend .text-xs;
+}
+
+.font-size-14 {
+  @extend .text-sm;
+}
+
+.font-size-16 {
+  @extend .text-base;
+}
+
+.font-size-18 {
+  font-size: 18px !important;
+}
+
+.font-size-24 {
+  @extend .text-xl;
+}
+
+.font-family-raleway {
+  font-family: 'Raleway';
+}
+
+.font-family-open_sans {
+  font-family: 'Open sans';
+}

@@ -1,0 +1,6 @@
+.card {
+  img {
+    @extend .object-fit-cover;
+    @extend .object-position-center;
+  }
+}
