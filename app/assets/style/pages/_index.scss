@@ -52,6 +52,14 @@
   }
 }
 
-.choice-list {
+.list {
   overflow-x: auto;
+}
+
+.destination {
+  height: 78px;
+  .region {
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 1;
+  }
 }
