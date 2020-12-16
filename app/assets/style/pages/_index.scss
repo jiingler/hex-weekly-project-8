@@ -63,3 +63,14 @@
     line-height: 1;
   }
 }
+
+.show-guests_options {
+  display: block !important;
+  position: absolute;
+  width: 100%;
+  top: 65px;
+}
+
+.guests_options:hover {
+  background-color: $secondary;
+}
