@@ -19,7 +19,7 @@
   z-index: 2;
 }
 
-.search-bar {
+.search {
   top: 264px;
   left: 0;
   right: 0;
@@ -59,8 +59,16 @@
 .destination {
   height: 78px;
   .region {
-    background-color: rgba(0, 0, 0, 0.5);
     line-height: 1;
+    transform: scaleY(0);
+    transform-origin: 50% 100%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  &:hover .region{
+    transform:scaleY(1);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 

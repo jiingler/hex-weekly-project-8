@@ -1,0 +1,10 @@
+.hotel-img {
+  height: 150px;
+  width: 150px;
+  @extend .object-fit-cover;
+  @extend .object-position-center;
+  @include lg {
+    height: 180px;
+    width: 255px;
+  }
+}

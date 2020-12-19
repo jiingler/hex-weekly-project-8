@@ -7,8 +7,13 @@ $(function() {
   });
 
   $('#guests').click(() => {
-    console.log('###')
     $('#guests_options').toggleClass('show-guests_options');
   })
+
+  $('.search-btn').click(() => {
+    window.location.href = './search-result.html'
+  })
 });
+
+
 
