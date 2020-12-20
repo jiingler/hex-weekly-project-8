@@ -7,18 +7,34 @@ current: search-result
 
 <div class="container py-md-4 py-3">
   <div class="row align-items-baseline">
-    <div class="col-4 d-md-block d-none">
-      <h3 class="text-xxxl font-weight-bolder mb-md-4 mb-2">
+    <div class="col-md-4 col-12">
+      <h3 class="text-xxxl text-md-left text-center font-weight-bolder mb-md-4 mb-3">
         Bangkok
         <span class="badge align-top p-0 text-primary">3,240</span>
       </h3>
     </div>
-    <div class="col-md-8 col-12">
+    <div class="col-md-8 col-12 d-none d-md-block">
       <ul class="d-flex mb-4 overflow-x-auto">
         <li class="mr-4 text-primary font-weight-bold white-space-nowrap">Recommended</li>
         <li class="mr-4 font-weight-bold white-space-nowrap">Lowest Price</li>
         <li class="mr-4 font-weight-bold white-space-nowrap">Best Value</li>
         <li class="mr-4 font-weight-bold white-space-nowrap">Distance to City Center</li>
+      </ul>
+    </div>
+    <div class="d-md-none d-block w-100 mb-3">
+      <ul class="d-flex justify-content-between text-sm font-weight-bolder">
+        <li class="d-flex justify-content-center align-items-center border-right w-50 border-secondary">
+          <span class="material-icons mr-2">
+            filter_list
+          </span>
+          <p class="mb-0">FILTER</p>
+        </li>
+        <li class="d-flex justify-content-center align-items-center w-50">
+          <span class="material-icons mr-2">
+            sort
+          </span>
+          <p class="mb-0">SORT</p>
+        </li>
       </ul>
     </div>
   </div>
@@ -30,31 +46,31 @@ current: search-result
           <li class="border-bottom border-white">
             <p class="text-base font-weight-bolder">Deals</p>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck1">Free cancellation</label>
+              <input type="checkbox" class="form-check-input" id="deals1">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="deals1">Free cancellation</label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck2">No prepayment</label>
+              <input type="checkbox" class="form-check-input" id="deals2">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="deals2">No prepayment</label>
             </div>
             <div class="form-group form-check mb-4">
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck2">Special offers</label>
+              <input type="checkbox" class="form-check-input" id="deals3">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="deals3">Special offers</label>
             </div>
           </li>
           <li class="border-bottom border-white mt-4">
             <p class="text-base font-weight-bolder">Popular Filter</p>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck1">Breakfast included</label>
+              <input type="checkbox" class="form-check-input" id="filter1">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="filter1">Breakfast included</label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck2">Free Wi-Fi</label>
+              <input type="checkbox" class="form-check-input" id="filter2">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="filter2">Free Wi-Fi</label>
             </div>
             <div class="form-group form-check mb-4">
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck2">Swimming pool</label>
+              <input type="checkbox" class="form-check-input" id="filter3">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="filter3">Swimming pool</label>
             </div>
           </li>
           <li class="border-bottom border-white mt-4">
@@ -81,8 +97,8 @@ current: search-result
           <li class="border-bottom border-white mt-4">
             <p class="text-base font-weight-bolder">Rating</p>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="rating1">
+              <label class="form-check-label" for="rating1">
                 <span class="material-icons text-lg-base text-md-sm">
                   star_rate
                 </span>
@@ -102,8 +118,8 @@ current: search-result
               </label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="rating2">
+              <label class="form-check-label" for="rating2">
                 <span class="material-icons text-lg-base text-md-sm">
                   star_rate
                 </span>
@@ -120,8 +136,8 @@ current: search-result
               </label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="rating3">
+              <label class="form-check-label" for="rating3">
                 <span class="material-icons text-lg-base text-md-sm">
                   star_rate
                 </span>
@@ -135,8 +151,8 @@ current: search-result
               </label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="rating4">
+              <label class="form-check-label" for="rating4">
                 <span class="material-icons text-lg-base text-md-sm">
                   star_rate
                 </span>
@@ -147,8 +163,8 @@ current: search-result
               </label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="rating5">
+              <label class="form-check-label" for="rating5">
                 <span class="material-icons text-lg-base text-md-sm">
                   star_rate
                 </span>
@@ -156,28 +172,28 @@ current: search-result
               </label>
             </div>
             <div class="form-group form-check mb-4">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck1">Unrated
+              <input type="checkbox" class="form-check-input" id="rating6">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="rating6">Unrated
               </label>
             </div>
           </li>
           <li class="mt-4">
             <p class="text-base font-weight-bolder">Stay Type</p>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck1">Hotel</label>
+              <input type="checkbox" class="form-check-input" id="type1">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="type1">Hotel</label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck2">Apartment</label>
+              <input type="checkbox" class="form-check-input" id="type2">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="type2">Apartment</label>
             </div>
             <div class="form-group form-check mb-2">
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck2">Unique</label>
+              <input type="checkbox" class="form-check-input" id="type3">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="type3">Unique</label>
             </div>
             <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck2">
-              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="exampleCheck2">Hostel</label>
+              <input type="checkbox" class="form-check-input" id="type4">
+              <label class="form-check-label text-lg-base text-md-sm text-gray-600" for="type4">Hostel</label>
             </div>
           </li>
         </ul>
@@ -186,12 +202,12 @@ current: search-result
     <!--search result list-->
     <ul class="col-md-8 col-12">
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1560747571-e9b3c7e7868c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="hotel1">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1560747571-e9b3c7e7868c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="hotel1">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Rachada, Bangkok<span class="d-lg-inline d-none text-gray-500">・2 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">Rachada Hotel</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">Rachada Hotel</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -211,29 +227,29 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">4.0(283)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Deluxe Double Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・1 bed (Queen size)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・1 bed (Queen size)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">Free cancellation</div>
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">No prepayment</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 1,980</p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 1,980</p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1572177215152-32f247303126?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80" alt="hotel1">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1572177215152-32f247303126?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80" alt="hotel1">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Phaya Thai, Bangkok<span class="d-lg-inline d-none text-gray-500">・2.9 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">Forever Place</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">Forever Place</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -256,29 +272,29 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">5.0 (121)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Standard Double Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・1 bed (Queen size)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・1 bed (Queen size)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">Free cancellation</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-base text-gray-500 mb-1 text-decoration-line-through d-lg-block d-none">TWD 1,980</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">1,680</span></p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-md-base text-xs text-gray-500 mb-md-1 mb-0 text-decoration-line-through">TWD 1,980</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">1,680</span></p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1544097935-e6d136448533?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel3">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1544097935-e6d136448533?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel3">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Bangkapi, Bangkok<span class="d-lg-inline d-none text-gray-500">・14 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">LUV Hotel</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">LUV Hotel</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -298,28 +314,28 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">4.0(325)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Standard Double Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・1 bed (Queen size)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・1 bed (Queen size)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">Free cancellation</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 2,460</p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 2,460</p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1584931999791-83ae17b2a4d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel4">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1584931999791-83ae17b2a4d8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel4">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Chatuchack, Bangkok<span class="d-lg-inline d-none text-gray-500">・12 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">WOW Life Hotel</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">WOW Life Hotel</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -339,29 +355,29 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">4.0(204)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Standard Double Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・1 bed (Queen size)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・1 bed (Queen size)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">No prepayment</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-base text-gray-500 mb-1 text-decoration-line-through d-lg-block d-none">TWD 2,880</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">2,240</span></p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-md-base text-xs text-gray-500 mb-md-1 mb-0 text-decoration-line-through">TWD 2,880</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">2,240</span></p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/flagged/photo-1570737143701-65c082fd72d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel5">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/flagged/photo-1570737143701-65c082fd72d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel5">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Chatuchack, Bangkok<span class="d-lg-inline d-none text-gray-500">・8 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">Celebrity Palace</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">Celebrity Palace</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -384,29 +400,29 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">5.0 (189)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Standard Double Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・1 bed (Queen size)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・1 bed (Queen size)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">No prepayment</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-base text-gray-500 mb-1 text-decoration-line-through d-lg-block d-none">TWD 2,120</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">1,890</span></p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-md-base text-xs text-gray-500 mb-md-1 mb-0 text-decoration-line-through">TWD 2,120</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">1,890</span></p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2800&q=80" alt="hotel6">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2800&q=80" alt="hotel6">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Rang Rak, Bangkok<span class="d-lg-inline d-none text-gray-500">・4.4 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">RR Space</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">RR Space</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -426,28 +442,28 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">4.0(112)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Deluxe Double Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・1 bed (King size)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・1 bed (King size)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">Free cancellation</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 2,090</p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 2,090</p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=584&q=80" alt="hotel7">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=584&q=80" alt="hotel7">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Watana, Bangkok<span class="d-lg-inline d-none text-gray-500">・6 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">Bangkok Hostel</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">Bangkok Hostel</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -470,29 +486,29 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">5.0 (102)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Twin Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・2 beds (2 twins)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・2 beds (2 twins)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">Free cancellation</div>
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">No prepayment</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 880</p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 880</p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1571385761622-aa2467d9f4b0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80" alt="hotel8">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1571385761622-aa2467d9f4b0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80" alt="hotel8">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Watana, Bangkok<span class="d-lg-inline d-none text-gray-500">・6 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">Watana First Hostel</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">Watana First Hostel</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -509,29 +525,29 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">3.0(608)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Twin Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・2 beds (2 twins)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・2 beds (2 twins)</p>
               <div class="d-md-block d-none">
                 <div class="badge bg-secondary rounded-pill text-lg-xs text-md-xxs py-1 px-2">Free cancellation</div>
               </div>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-base text-gray-500 mb-1 text-decoration-line-through d-lg-block d-none">TWD 1,280</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">790</span></p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-md-base text-xs text-gray-500 mb-md-1 mb-0 text-decoration-line-through">TWD 1,280</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">790</span></p>
             </div>
           </div>
         </div>
       </li>
       <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1557127275-f8b5ba93e24e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel9">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1557127275-f8b5ba93e24e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel9">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Din Daeng, Bangkok<span class="d-lg-inline d-none text-gray-500">・7 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">DD Space</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">DD Space</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -551,26 +567,26 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">4.0(138)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Standard Double Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・1 bed (Queen size)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・1 bed (Queen size)</p>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-base text-gray-500 mb-1 text-decoration-line-through d-lg-block d-none">TWD 1,700</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">1,240</span></p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-md-base text-xs text-gray-500 mb-md-1 mb-0 text-decoration-line-through">TWD 1,700</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD <span class="text-primary">1,240</span></p>
             </div>
           </div>
         </div>
       </li>
-      <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0 border-bottom border-secondary">
-        <img class="hotel-img rounded-left" src="https://images.unsplash.com/photo-1565112791128-f7f4c2d487c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel10">
-        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1">
-          <div class="d-flex align-items-start justify-content-between">
+      <li class="d-flex justify-content-between pb-lg-4 pb-md-3 pb-0 mt-lg-4 mt-md-3 mt-0">
+        <img class="hotel-img rounded-md-left rounded-none mr-md-0" src="https://images.unsplash.com/photo-1565112791128-f7f4c2d487c6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="hotel10">
+        <div class="d-flex flex-column justify-content-between w-100 p-lg-3 p-md-2 py-1 px-2">
+          <div class="d-flex align-items-start justify-content-between flex-md-row flex-column mb-md-0 mb-1">
             <div>
               <p class="text-xs text-primary mb-0">Din Daeng, Bangkok<span class="d-lg-inline d-none text-gray-500">・7 km from center</span></p>
-              <p class="text-lg-lg text-base font-weight-border mb-lg-3 mb-md-2">Dininn Hotel</p>
+              <p class="text-lg-xl text-base font-weight-border mb-lg-3 mb-md-2 mb-1">Dininn Hotel</p>
             </div>
             <div class="d-flex align-items-lg-center align-items-md-end flex-lg-row flex-md-column ">
               <div class="d-flex align-items-center">
@@ -587,14 +603,14 @@ current: search-result
               <span class="text-lg-base text-md-sm text-gray-500 ml-1">3.0 (446)</span>
             </div>
           </div>
-          <div class="d-flex justify-content-between align-items-end h-100">
+          <div class="d-flex justify-content-between align-items-end flex-md-row flex-column h-100">
             <div class="text-gray-500 align-self-start">
               <p class="text-sm text-gray-600 font-weight-bolder font-family-raleway mb-lg-1 mb-0">Deluxe Twin Room</p>
-              <p class="text-xs mb-lg-3 mb-md-2">2 guests・2 beds (2 twins)</p>
+              <p class="text-xs mb-lg-3 mb-md-2 mb-auto">2 guests・2 beds (2 twins)</p>
             </div>
             <div class="d-flex flex-column align-items-end justify-content-end">
-              <p class="text-xs text-gray-500 mb-0">per night</p>
-              <p class="text-lg-lg text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 3,450</p>
+              <p class="text-xs text-gray-500 mb-0 d-none d-md-block">per night</p>
+              <p class="text-lg-xl text-base font-weight-bolder font-family-raleway mb-0 white-space-nowrap">TWD 3,450</p>
             </div>
           </div>
         </div>

@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
+  <title>
+    <%- title %>
+  </title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <!--Plugin CSS file with desired skin-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
@@ -19,13 +22,15 @@
 <body>
   <nav class="navbar navbar-expand-md">
     <div class="container d-flex align-items-center justify-content-between">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+        aria-expanded="false" aria-label="Toggle navigation">
         <span class="material-icons text-gray-900">
           menu
         </span>
       </button>
       <h1 class="mb-0 lh-base">
-        <a href="./index.html" class="img-replaced-text d-block py-2" style="background: url(assets/images/ic-logo-aloha.svg) center no-repeat;">
+        <a href="./index.html" class="img-replaced-text d-block py-2"
+          style="background: url(assets/images/ic-logo-aloha.svg) center no-repeat;">
           Aloha
         </a>
       </h1>
@@ -42,60 +47,72 @@
               </span>
             </a>
           </li>
-          <li class="nav-item"><a href="" class="d-md-block d-none text-gray-900 bg-transparent px-4 py-md-0 py-3 hover-text-decoration-underline">Sign up</a></li>
-          <li class="nav-item"><a href="" class="d-md-none d-block text-gray-900 bg-secondary px-4 py-md-0 py-3 hover-text-decoration-underline">Sign up</a></li>
-          <li class="nav-item"><a href="" class="d-md-block d-none text-gray-900 pl-4 hover-text-decoration-underline">Login</a></li>
+          <li class="nav-item"><a href=""
+              class="d-md-block d-none text-gray-900 bg-transparent px-4 py-md-0 py-3 hover-text-decoration-underline">Sign
+              up</a></li>
+          <li class="nav-item"><a href=""
+              class="d-md-none d-block text-gray-900 bg-secondary px-4 py-md-0 py-3 hover-text-decoration-underline">Sign
+              up</a></li>
+          <li class="nav-item"><a href=""
+              class="d-md-block d-none text-gray-900 pl-4 hover-text-decoration-underline">Login</a></li>
         </ul>
       </div>
-      
+
     </div>
   </nav>
-  <% if (current !== 'index') { %>
+  <% if (current !=='index' ) { %>
     <%- include('./components/search-bar.html'); %>
   <% } %>
-  
 
   <%- contents %>
 
   <!--subscribe-->
-
   <%- include('./components/subscribe-lg.html'); %>
 
   <footer class="py-4">
-    <div class="container d-flex align-items-center justify-content-md-between flex-md-row flex-column-reverse text-sm">
+    <div
+      class="container d-flex align-items-center justify-content-md-between flex-md-row flex-column-reverse text-sm">
       <div class="mr-lg-6 text-gray-700">© 2020 ALOHA, Inc. All rights reserved.</div>
       <ul class="d-flex align-items-center mr-lg-auto pl-0 mb-md-0 mb-3">
         <li><a href="#" class="d-block pr-2 text-gray-700 hover-text-decoration-underline">FAQs</a></li>
-        <li><a href="#" class="d-block px-lg-2 px-2 text-gray-700 hover-text-decoration-underline">Terms of use</a></li>
-        <li><a href="#" class="d-block px-lg-2 pl-2 text-gray-700 hover-text-decoration-underline">Privacy policy</a></li>
+        <li><a href="#" class="d-block px-lg-2 px-2 text-gray-700 hover-text-decoration-underline">Terms of
+            use</a></li>
+        <li><a href="#" class="d-block px-lg-2 pl-2 text-gray-700 hover-text-decoration-underline">Privacy
+            policy</a></li>
       </ul>
       <ul class="d-lg-flex align-items-center justify-content-between d-none">
         <li><a href="#" class="d-flex text-gray-700 mr-4">
-          <span class="material-icons text-gray-900 mr-2">
-            language
-          </span>
-          English
-          <span class="material-icons text-gray-900">
-            arrow_drop_down
-          </span>
-        </a></li>
+            <span class="material-icons text-gray-900 mr-2">
+              language
+            </span>
+            English
+            <span class="material-icons text-gray-900">
+              arrow_drop_down
+            </span>
+          </a></li>
         <li><a href="#" class="d-flex text-gray-700">
-          <span class="material-icons text-gray-900 mr-2">
-            attach_money
-          </span>
-          TWD
-          <span class="material-icons text-gray-900">
-            arrow_drop_down
-          </span>
-        </a></li>
+            <span class="material-icons text-gray-900 mr-2">
+              attach_money
+            </span>
+            TWD
+            <span class="material-icons text-gray-900">
+              arrow_drop_down
+            </span>
+          </a></li>
       </ul>
     </div>
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper('.swiper-container', {
@@ -105,57 +122,60 @@
       },
     });
   </script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
-  <script>
-    $('input[name="dates"]').daterangepicker();
-  </script>
   <!--jQuery-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
+
   <!--Plugin JavaScript file-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
-  <script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+  <!-- <script>
     $(".js-range-slider").ionRangeSlider();
-    function updateInputs (data) {
-	from = data.from;
-    to = data.to;
-    
-    $inputFrom.prop("value", from);
-    $inputTo.prop("value", to);	
-}
+    function updateInputs(data) {
+      from = data.from;
+      to = data.to;
 
-$inputFrom.on("input", function () {
-    var val = $(this).prop("value");
-    
-    // validate
-    if (val < min) {
+      $inputFrom.prop("value", from);
+      $inputTo.prop("value", to);
+    }
+
+    $inputFrom.on("input", function () {
+      var val = $(this).prop("value");
+
+      // validate
+      if (val < min) {
         val = min;
-    } else if (val > to) {
+      } else if (val > to) {
         val = to;
-    }
-    
-    instance.update({
-        from: val
-    });
-});
+      }
 
-$inputTo.on("input", function () {
-    var val = $(this).prop("value");
-    
-    // validate
-    if (val < from) {
-        val = from;
-    } else if (val > max) {
-        val = max;
-    }
-    
-    instance.update({
-        to: val
+      instance.update({
+        from: val
+      });
     });
-});
+
+    $inputTo.on("input", function () {
+      var val = $(this).prop("value");
+
+      // validate
+      if (val < from) {
+        val = from;
+      } else if (val > max) {
+        val = max;
+      }
+
+      instance.update({
+        to: val
+      });
+    });
+  </script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+  <script>
+    $('input[name="dates"]').daterangepicker();
   </script>
 </body>
 
