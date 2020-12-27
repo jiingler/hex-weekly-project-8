@@ -1,11 +1,14 @@
 @import './mixin/response-web';
 @import './mixin/font-size';
-
+@import './mixin/bg-color';
+@import './mixin/border';
 
 @each $key, $val in $grid-breakpoints {
   $infix: breakpoint-infix($key, $grid-breakpoints);
   @include response-degin($key) {
     @include generatorFontZise($infix);
+    @include generatorBgColor($infix);
+    @include generatorBorder($infix);
   }
 };
 

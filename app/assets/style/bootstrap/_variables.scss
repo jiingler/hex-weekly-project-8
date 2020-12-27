@@ -92,6 +92,7 @@ $theme-colors: map-merge(
     "gray-900":   $gray-900,
     "transparent":$transparent,
     "black":      $black,
+    "white":      $white,
   ),
   $theme-colors
 );
@@ -1167,6 +1168,7 @@ $displays: none, inline, inline-block, block, table, table-row, table-cell, flex
 $overflows: auto, hidden !default;
 $positions: static, relative, absolute, fixed, sticky !default;
 $user-selects: all, auto, none !default;
+$directions: none, top, bottom, right, left !default;
 
 
 // Printing

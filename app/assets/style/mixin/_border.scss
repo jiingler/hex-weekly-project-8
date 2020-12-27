@@ -1,0 +1,12 @@
+@mixin generatorBorder($infix: null) {
+  @each $direction in $directions {
+    .border#{$infix}-#{$direction} {
+      @if $direction == none {
+        border: none !important;
+      } @else {
+        border-#{$direction}-width: 1px !important;
+        border-#{$direction}-style: solid !important;
+      }
+    }
+  }
+}
