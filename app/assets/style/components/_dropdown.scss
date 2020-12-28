@@ -7,3 +7,7 @@
 .dropdown-toggle::after {
   display: none;
 }
+
+.dropdown-menu .active {
+  color: $secondary;
+}

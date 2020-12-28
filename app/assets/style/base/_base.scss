@@ -9,6 +9,12 @@ body {
   box-sizing: border-box !important;
 }
 
+a, button {
+  &:hover {
+    background-color: #fff !important;
+  }
+}
+
 ul, li {
   list-style: none !important;
 }

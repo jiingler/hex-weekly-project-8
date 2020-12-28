@@ -21,19 +21,29 @@ current: search-result
         <li class="mr-4 font-weight-bold white-space-nowrap">Distance to City Center</li>
       </ul>
     </div>
-    <div class="d-md-none d-block w-100 mb-3">
+    <div class="d-md-none d-block w-100 mb-3 position-relative">
       <ul class="d-flex justify-content-between text-sm font-weight-bolder">
-        <li class="d-flex justify-content-center align-items-center border-right w-50 border-secondary">
-          <span class="material-icons mr-2">
-            filter_list
-          </span>
-          <p class="mb-0">FILTER</p>
+        <li class="border-right w-50 border-secondary">
+          <a href="#" class="d-flex justify-content-center align-items-center text-black">
+            <span class="material-icons mr-2">
+              filter_list
+            </span>
+            <p class="mb-0">FILTER</p>
+          </a>
         </li>
-        <li class="d-flex justify-content-center align-items-center w-50">
-          <span class="material-icons mr-2">
-            sort
-          </span>
-          <p class="mb-0">SORT</p>
+        <li class="w-50">
+          <a class="dropdown-toggle d-flex justify-content-center align-items-center border-0 text-black" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="material-icons mr-2">
+              sort
+            </span>
+            <p class="mb-0">SORT</p>
+          </a>
+          <div class="dropdown-menu bg-secondary rounded border-0 shadow mx-4" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item active" href="#">Recommended</a>
+            <a class="dropdown-item" href="#">Lowest Price</a>
+            <a class="dropdown-item" href="#">Best Value</a>
+            <a class="dropdown-item" href="#">Distance to City Center</a>
+          </div>
         </li>
       </ul>
     </div>

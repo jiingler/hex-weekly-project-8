@@ -13033,6 +13033,10 @@ body {
           box-sizing: border-box !important;
 }
 
+a:hover, button:hover {
+  background-color: #fff !important;
+}
+
 ul, li {
   list-style: none !important;
 }
@@ -13669,6 +13673,10 @@ a.hover-text-decoration-none:hover {
 
 .dropdown-toggle::after {
   display: none;
+}
+
+.dropdown-menu .active {
+  color: #F1F0F8;
 }
 
 .irs--round .irs-bar, .irs--round .irs-to, .irs--round .irs-from, .irs--round .irs-single {
