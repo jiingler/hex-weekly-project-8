@@ -1,7 +1,0 @@
-@mixin buttonHoverNoBorder() {
-  @each $color in map-keys($theme-colors) {
-    .btn-#{$color}:hover {
-      border-color: none !important;
-    }
-  }
-}

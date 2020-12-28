@@ -1,8 +1,0 @@
-@mixin generatorBgColor($infix: null) {
-  @each $color in map-keys($theme-colors) {
-    .bg#{$infix}-#{$color} {
-      background-color: map-get($theme-colors, $color) !important;
-    }
-  }
-}
-

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    首頁
+  </title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!--Plugin CSS file with desired skin-->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <div class="container d-flex align-items-center justify-content-between">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-icons text-gray-900">
+          menu
+        </span>
+      </button>
+      <h1 class="mb-0 lh-base">
+        <a href="./index.html" class="img-replaced-text d-block py-2"
+          style="background: url(assets/images/ic-logo-aloha.svg) center no-repeat;">
+          Aloha
+        </a>
+      </h1>
+      <a href="" class="d-md-none d-block text-gray-900 pr-2 mr-1 hover-text-decoration-underline">Login</a>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbar">
+        <ul class="navbar-nav d-flex mb-0">
+          <li class="nav-item active">
+            <a href="" class="d-md-flex pr-4 d-none">
+              <span class="material-icons text-gray-900">
+                language
+              </span>
+              <span class="material-icons text-gray-900">
+                arrow_drop_down
+              </span>
+            </a>
+          </li>
+          <li class="nav-item"><a href=""
+              class="d-md-block d-none text-gray-900 bg-transparent px-4 py-md-0 py-3 hover-text-decoration-underline">Sign
+              up</a></li>
+          <li class="nav-item"><a href=""
+              class="d-md-none d-block text-gray-900 bg-secondary px-4 py-md-0 py-3 hover-text-decoration-underline">Sign
+              up</a></li>
+          <li class="nav-item"><a href=""
+              class="d-md-block d-none text-gray-900 pl-4 hover-text-decoration-underline">Login</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  
+
+  <div class="banner position-relative">
+  <div class="swiper-container position-relative">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="slide-img" src="https://images.unsplash.com/photo-1534600913328-441f6abb4e2f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80" alt="hotel image">
+      </div>
+      <div class="swiper-slide">
+        <img class="slide-img" src="https://images.unsplash.com/photo-1569335468888-1d3e4a5a3595?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80" alt="hotel image">
+      </div>
+      <div class="swiper-slide">
+        <img class="slide-img" src="https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2800&q=80" alt="hotel image">
+      </div>
+    </div>
+    <div class="container position-absolute-center">
+      <div class="row h-100 d-flex justify-content-center align-items-center">
+        <div class="col-10 h-100"> 
+          <div class="swiper-button-next text-white"></div>
+          <div class="swiper-button-prev text-white"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="search container position-absolute">
+    <div class="row d-flex justify-content-center">
+      <div class="col-10 g-3 p-4 d-block d-lg-flex justify-content-between bg-secondary rounded">
+        <ul class="w-100 row pr-0 pr-lg-3 d-block d-lg-flex justify-content-between">
+          <li class="dropdown col mr-3 mb-3 mb-lg-0 p-0 rounded">
+              <button class="dropdown-toggle btn btn-secondary text-gray-600 w-100 h-100 p-3 mb-0 d-flex align-items-center bg-white" type="button" id="destination" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="material-icons mr-3">
+                  place
+                </span>
+                Destination
+              </button>
+              <div class="dropdown-menu" aria-labelledby="destination">
+                <a class="dropdown-item d-flex my-1" href="#">
+                  <span class="material-icons text-base mr-2">
+                    star_rate
+                  </span>
+                  <div>
+                    <p class="text text-base mb-2">Bankok</p>
+                    <p class="text text-xs mb-0 text-gray-500">Thailand</p>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex my-1" href="#">
+                  <span class="material-icons text-base mr-2">
+                    star_rate
+                  </span>
+                  <div>
+                    <p class="text text-base mb-2">Osaka</p>
+                    <p class="text text-xs mb-0 text-gray-500">Japan</p>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex my-1" href="#">
+                  <span class="material-icons text-base mr-2">
+                    star_rate
+                  </span>
+                  <div>
+                    <p class="text text-base mb-2">Roma</p>
+                    <p class="text text-xs mb-0 text-gray-500">Italy</p>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex my-1" href="#">
+                  <span class="material-icons text-base mr-2">
+                    star_rate
+                  </span>
+                  <div>
+                    <p class="text text-base mb-2">Paris</p>
+                    <p class="text text-xs mb-0 text-gray-500">France</p>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex my-1" href="#">
+                  <span class="material-icons text-base mr-2">
+                    star_rate
+                  </span>
+                  <div>
+                    <p class="text text-base mb-2">Reykjavík</p>
+                    <p class="text text-xs mb-0 text-gray-500">Iceland</p>
+                  </div>
+                </a>
+              </div>
+          </li>
+          <li class="col mr-3 mb-3 mb-lg-0 p-0 rounded">
+            <button class="text-gray-600 d-flex align-items-center w-100 h-100 p-3 mb-0 border-0 bg-white" name="daterange">
+              <span class="material-icons mr-2">
+                date_range
+              </span>
+              Check-in / Check-out
+            </button>            
+          </li>
+          <li class="col mb-3 mb-lg-0 p-0 rounded position-relative">
+            <button class="text-gray-600 mb-0 d-flex align-items-center w-100 h-100 p-3 mb-0 border-0 bg-white" id="guests">
+              <span class="material-icons mr-3">
+                person
+              </span>
+              Guests
+            </button>
+            <ul class="guests_options p-3 bg-white shadow d-none" id="guests_options">
+              <li class="d-flex align-items-center justify-content-between mb-3">
+                <p class="m-0">Adult</p>
+                <div class="d-flex align-items-center text-base">
+                  <a class="mr-2 mb-n2" href="">
+                    <span class="material-icons">
+                      remove
+                      </span>
+                  </a>
+                  <span class="mr-2">0</span>
+                  <a class="mb-n2" href="">
+                    <span class="material-icons">
+                      add
+                    </span>
+                  </a>
+                </div>
+              </li>
+              <li class="d-flex align-items-center justify-content-between mb-3">
+                <p class="m-0">Child</p>
+                <div class="d-flex align-items-center text-base">
+                  <a class="mr-2 mb-n2" href="">
+                    <span class="material-icons">
+                      remove
+                      </span>
+                  </a>
+                  <span class="mr-2">0</span>
+                  <a class="mb-n2" href="">
+                    <span class="material-icons">
+                      add
+                    </span>
+                  </a>
+                </div>
+              </li>
+              <li class="d-flex align-items-center justify-content-between">
+                <p class="m-0">Room</p>
+                <div class="d-flex align-items-center text-base">
+                  <a class="mr-2 mb-n2" href="">
+                    <span class="material-icons">
+                      remove
+                      </span>
+                  </a>
+                  <span class="mr-2">0</span>
+                  <a class="mb-n2" href="">
+                    <span class="material-icons">
+                      add
+                    </span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <button class="search-btn btn btn-primary py-3 px-4">SEARCH</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--Top Choices-->
+
+<div class="container">
+  <h3 class="h3 mb-4">Top Choices</h3>
+  <ul class="nav mb-4">
+    <li class="nav-item">
+      <a class="nav-link px-4 border-bottom border-3 active" aria-current="page" href="#">Bali<span class="badge align-top p-0">128</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link px-4 border-bottom border-3" href="#">Okinawa<span class="badge align-top p-0">67</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link px-4 border-bottom border-3" href="#">Taipei<span class="badge align-top p-0">53</span></a>
+    </li>
+  </ul>
+</div>
+<div class="container-lg container-fluid mb-lg-6 mb-5">
+  <ul class="list row d-flex flex-nowrap mx-n3">
+    <li class="col-lg-3 col-md-5 col-9">
+      <div class="card w-100 border-0">
+        <img class="mb-2 rounded" src="https://images.unsplash.com/photo-1569335468888-1d3e4a5a3595?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80" class="card-img-top" alt="hotel1">
+        <div class="card-body p-0">
+          <p class="text-base">Hotel Aqua</p>
+          <div class="card-text d-flex align-items-center">
+            <p class="d-flex align-items-center mr-1">
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+            </p>
+            <p class="text-sm text-gray-600">5.0</p>
+            <p class="text-xs text-gray-500">・2k reviews</p>
+          </div>
+          <p class="text-sm text-gray-600">TWD 2,480<span class="text-xs text-gray-500 ml-2 text-decoration-line-through">TWD 3,980</span></p>
+        </div>
+      </div>
+    </li>
+    <li class="col-lg-3 col-md-5 col-9">
+      <div class="card w-100 border-0">
+        <img class="mb-2 rounded" src="https://images.unsplash.com/photo-1564631028227-cd9886207fc3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1525&q=80" class="card-img-top" alt="hotel2">
+        <div class="card-body p-0">
+          <p class="text-base">Mr. Kawasaki Inn</p>
+          <div class="card-text d-flex align-items-center">
+            <p class="d-flex align-items-center mr-1">
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+            </p>
+            <p class="text-sm text-gray-600">4.0</p>
+            <p class="text-xs text-gray-500">・500 reviews</p>
+          </div>
+          <p class="text-sm text-gray-600">TWD 3,380</p>
+        </div>
+      </div>
+    </li>
+    <li class="col-lg-3 col-md-5 col-9">
+      <div class="card w-100 border-0">
+        <img class="mb-2 rounded" src="https://images.unsplash.com/photo-1506126279646-a697353d3166?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" class="card-img-top" alt="hotel3">
+        <div class="card-body p-0">
+          <p class="text-base">Weekly Paradise</p>
+          <div class="card-text d-flex align-items-center">
+            <p class="d-flex align-items-center mr-1">
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+            </p>
+            <p class="text-sm text-gray-600">4.0</p>
+            <p class="text-xs text-gray-500">・470 reviews</p>
+          </div>
+          <p class="text-sm text-gray-600">TWD 4,780</p>
+        </div>
+      </div>
+    </li>
+    <li class="col-lg-3 col-md-5 col-9">
+      <div class="card w-100 border-0">
+        <img class="mb-2 rounded" src="https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80" class="card-img-top" alt="hotel4">
+        <div class="card-body p-0">
+          <p class="text-base">Beast Hotel</p>
+          <div class="card-text d-flex align-items-center">
+            <p class="d-flex align-items-center mr-1">
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+              <span class="material-icons font-size-18">
+                star_rate
+              </span>
+            </p>
+            <p class="text-sm text-gray-600">4.0</p>
+            <p class="text-xs text-gray-500">・283 reviews</p>
+          </div>
+          <p class="text-sm text-gray-600">TWD 1,980</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<!--Popular Destinations-->
+
+<div class="container mb-lg-6 mb-5">
+  <h3 class="h3 mb-4">Popular Destinations</h3>
+  <ul class="row mx-n3">
+    <li class="col-lg-4 col-md-6 col-12 mb-md-4 mb-2">
+      <a href="#">
+        <div class="destination position-relative">
+          <img class="rounded w-100 h-100 object-fit-cover object-position-center" src="https://images.unsplash.com/photo-1537153960513-344d9f2e8216?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="Osaka">
+          <div class="region rounded d-flex align-items-center justify-content-between position-absolute-center px-4 py-3">
+            <p class="text-xl font-weight-bold text-white line-height-1">
+              <span class="text-xs font-weight-normal text-gray-500">JAPAN</span>
+              <br>
+              Osaka
+            </p>
+            <span class="material-icons text-white">
+              keyboard_arrow_down
+            </span>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="col-lg-4 col-md-6 col-12 mb-md-4 mb-2">
+      <a href="#">
+        <div class="destination position-relative">
+          <img class="rounded w-100 h-100 object-fit-cover object-position-center" src="https://images.unsplash.com/photo-1558862107-d49ef2a04d72?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="Kyoto">
+          <div class="region rounded d-flex align-items-center justify-content-between position-absolute-center px-4 py-3">
+            <p class="text-xl font-weight-bold text-white line-height-1">
+              <span class="text-xs font-weight-normal text-gray-500">JAPAN</span>
+              <br>
+              Kyoto
+            </p>
+            <span class="material-icons text-white">
+              keyboard_arrow_down
+            </span>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="col-lg-4 col-md-6 col-12 mb-md-4 mb-2">
+      <a href="#">
+        <div class="destination position-relative">
+          <img class="rounded w-100 h-100 object-fit-cover object-position-center" src="https://images.unsplash.com/photo-1504829857797-ddff29c27927?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt="Reykjavík">
+          <div class="region rounded d-flex align-items-center justify-content-between position-absolute-center px-4 py-3">
+            <p class="text-xl font-weight-bold text-white line-height-1">
+              <span class="text-xs font-weight-normal text-gray-500">ICELAND</span>
+              <br>
+              Reykjavík
+            </p>
+            <span class="material-icons text-white">
+              keyboard_arrow_down
+            </span>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="col-lg-4 col-md-6 col-12 mb-md-4 mb-2">
+      <a href="#">
+        <div class="destination position-relative">
+          <img class="rounded w-100 h-100 object-fit-cover object-position-center" src="https://images.unsplash.com/photo-1486247496048-cc4ed929f7cc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80" alt="Paris">
+          <div class="region rounded d-flex align-items-center justify-content-between position-absolute-center px-4 py-3">
+            <p class="text-xl font-weight-bold text-white line-height-1">
+              <span class="text-xs font-weight-normal text-gray-500">FRANCE</span>
+              <br>
+              Paris
+            </p>
+            <span class="material-icons text-white">
+              keyboard_arrow_down
+            </span>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="col-lg-4 col-md-6 col-12 mb-md-4 mb-2">
+      <a href="#">
+        <div class="destination position-relative">
+          <img class="rounded w-100 h-100 object-fit-cover object-position-center" src="https://images.unsplash.com/photo-1529154036614-a60975f5c760?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80" alt="Roma">
+          <div class="region rounded d-flex align-items-center justify-content-between position-absolute-center px-4 py-3">
+            <p class="text-xl font-weight-bold text-white line-height-1">
+              <span class="text-xs font-weight-normal text-gray-500">ITALY</span>
+              <br>
+              Roma
+            </p>
+            <span class="material-icons text-white">
+              keyboard_arrow_down
+            </span>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="col-lg-4 col-md-6 col-12 mb-md-4 mb-2">
+      <a href="#">
+        <div class="destination position-relative">
+          <img class="rounded w-100 h-100 object-fit-cover object-position-center" src="https://images.unsplash.com/photo-1582468546235-9bf31e5bc4a1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80" alt="Bangkok">
+          <div class="region rounded d-flex align-items-center justify-content-between position-absolute-center px-4 py-3">
+            <p class="text-xl font-weight-bold text-white line-height-1">
+              <span class="text-xs font-weight-normal text-gray-500">THAILAND</span>
+              <br>
+              Bangkok
+            </p>
+            <span class="material-icons text-white">
+              keyboard_arrow_down
+            </span>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!--Get Inspiration-->
+<div class="container mb-lg-6 mb-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="h3 mb-0">Get Inspiration</h3>
+    <button class="btn btn-outline-primary">SEE MORE</button>
+  </div>
+  <ul class="list row d-flex flex-md-wrap flex-nowrap mx-n3">
+    <li class="col-9 col-md-4">
+      <a href="#">
+        <div class="card w-100 border-0">
+          <img class="mb-4 rounded" src="https://images.unsplash.com/photo-1509024644558-2f56ce76c490?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" class="card-img-top" alt="inspiration1">
+          <div class="card-body p-0">
+            <h4 class="h4 text-black">The fifth most visited country</h4>
+            <p class="text-base text-gray-600">Italy is the fifth most visited country in the world, with a total of 52.3 million…</p>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="col-9 col-md-4">
+      <a href="#">
+        <div class="card w-100 border-0">
+          <img class="mb-4 rounded" src="https://images.unsplash.com/photo-1558225818-388ab5bcd45d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" class="card-img-top" alt="inspiration2">
+          <div class="card-body p-0">
+            <h4 class="h4 text-black">Visit Thailand for Bangkok</h4>
+            <p class="text-base text-gray-600">Asian tourists primarily visit Thailand for Bangkok and the historical, natural, and…</p>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li class="col-9 col-md-4">
+      <a href="#">
+        <div class="card w-100 border-0">
+          <img class="mb-4 rounded" src="https://images.unsplash.com/photo-1519872436884-4a50eb5a62db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80" class="card-img-top" alt="inspiration3">
+          <div class="card-body p-0">
+            <h4 class="h4 text-black">Lord of the Rings Tour</h4>
+            <p class="text-base text-gray-600">The national cuisine has been described as Pacific Rim, incorporating the native Māori…</p>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+
+  <!--subscribe-->
+  <div class="subscribe-lg d-flex align-items-center py-4 py-md-8">
+  <div class="container">
+    <h3 class="h3 mb-3">Subscribe for Exclusive Offer</h3>
+    <div class="input-group mb-3 text-base">
+      <input type="text" class="form-control p-3" placeholder="Your email address" aria-label="Your email address" aria-describedby="button">
+      <div class="input-group-append">
+        <button class="btn btn-primary p-3" type="button" id="button">SUBSCRIBE</button>
+      </div>
+    </div>  
+  </div>
+</div>
+
+  <footer class="py-4">
+    <div
+      class="container d-flex align-items-center justify-content-md-between flex-md-row flex-column-reverse text-sm">
+      <div class="mr-lg-6 text-gray-700">© 2020 ALOHA, Inc. All rights reserved.</div>
+      <ul class="d-flex align-items-center mr-lg-auto pl-0 mb-md-0 mb-3">
+        <li><a href="#" class="d-block pr-2 text-gray-700 hover-text-decoration-underline">FAQs</a></li>
+        <li><a href="#" class="d-block px-lg-2 px-2 text-gray-700 hover-text-decoration-underline">Terms of
+            use</a></li>
+        <li><a href="#" class="d-block px-lg-2 pl-2 text-gray-700 hover-text-decoration-underline">Privacy
+            policy</a></li>
+      </ul>
+      <ul class="d-lg-flex align-items-center justify-content-between d-none">
+        <li><a href="#" class="d-flex text-gray-700 mr-4">
+            <span class="material-icons text-gray-900 mr-2">
+              language
+            </span>
+            English
+            <span class="material-icons text-gray-900">
+              arrow_drop_down
+            </span>
+          </a></li>
+        <li><a href="#" class="d-flex text-gray-700">
+            <span class="material-icons text-gray-900 mr-2">
+              attach_money
+            </span>
+            TWD
+            <span class="material-icons text-gray-900">
+              arrow_drop_down
+            </span>
+          </a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <!--jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!--Plugin JavaScript file-->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+  <!-- <script>
+    $(".js-range-slider").ionRangeSlider();
+    function updateInputs(data) {
+      from = data.from;
+      to = data.to;
+
+      $inputFrom.prop("value", from);
+      $inputTo.prop("value", to);
+    }
+
+    $inputFrom.on("input", function () {
+      var val = $(this).prop("value");
+
+      // validate
+      if (val < min) {
+        val = min;
+      } else if (val > to) {
+        val = to;
+      }
+
+      instance.update({
+        from: val
+      });
+    });
+
+    $inputTo.on("input", function () {
+      var val = $(this).prop("value");
+
+      // validate
+      if (val < from) {
+        val = from;
+      } else if (val > max) {
+        val = max;
+      }
+
+      instance.update({
+        to: val
+      });
+    });
+  </script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+  <script>
+    $('input[name="dates"]').daterangepicker();
+  </script>
+</body>
+
+</html>
